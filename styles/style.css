@@ -458,4 +458,7 @@ iframe{
     gap: 24px;
 }
 
-/* /* Contact link section End here */ */
+/* /* Contact link section End here */ 
+html {
+    scroll-behavior: smooth;
+}
