@@ -356,6 +356,7 @@ iframe{
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
+    margin-bottom: 80px;
 }
 .search-box{
     box-sizing: border-box;
@@ -381,4 +382,49 @@ iframe{
     border-radius: 8px;
     background: rgb(255, 255, 255);
     margin: 0 16px;
+}
+
+/* support section end here */
+
+/* Contact link section start here */
+.contact-links{
+    width: 1440px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.03);
+    margin: 0 auto;
+}
+.contact-links-item{
+    width: 1140px;
+    height: 36px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50% 150px;
+}
+.contact-links-title{
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0px;
+    width: 456px;
+    height: 23px;
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+}
+
+.social-icons{
+    display: flex;
+    width: 36px;
+    height: 36px;
+    margin-right: 150px;
+    gap: 24px;
 }
