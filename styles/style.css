@@ -89,7 +89,7 @@ header{
     text-align: center;
 }
 
-.wd-title, .ins-title{
+.wd-title, .ins-title, .mct-tittle{
     color: rgb(13, 19, 33);
     font-size: 16px;
     font-weight: 400;
@@ -200,4 +200,61 @@ header{
 
 iframe{
     border-radius: 16px;
-} */
+}
+/* My Inspiration section END here */
+
+
+
+/* My Current Target section start */
+.my-current-target{
+    width: 1140px;
+    height: 460px;
+    align-items: center;
+    padding: 0px;
+    margin: 151px auto;
+
+}
+
+.mct-header{
+    width: 946px;
+    height: 113px;
+    align-items: center;
+    padding: 0px;
+    margin: 0 auto;
+}
+
+.mct-heading{
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.mct-footer{
+    display: flex;
+    flex-direction: row;
+}
+.target-skill-html{
+    width: 364px;
+    height: 299px;
+    padding: 40px;
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+}
+.target-skill-css{
+    width: 364px;
+    height: 299px;
+    padding: 40px;
+    border-radius: 16px;
+    background: rgba(0, 76, 232, 0.05);
+}
+.target-skill-java{
+    width: 364px;
+    height: 299px;
+    padding: 40px;
+    border-radius: 16px;
+    background: rgba(255, 223, 0, 0.05);
+}
